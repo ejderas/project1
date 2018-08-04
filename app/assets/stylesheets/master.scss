@@ -5,24 +5,26 @@
   clear: both;
 }
 
-.circle {
-  font-weight: bold;
-  font-style: italic;
-  position: relative;
-  border-radius: 100%;
-  background: #f84342;
-  border: 1px solid #F7F7F7;
-  width: 80px;
-  height: 80px;
-  margin: 10px 10px;
-  text-align: center;
-  color: #FFF;
-  font-size: 10px;
-  line-height: 16px;
-  cursor: pointer;
-  transform: rotate(11deg);
-  -ms-transform: rotate(11deg); /* IE 9 */
-  -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
+
+.gem {
+  margin: 5% auto;
+  width: 50px;
+  height: 50px;
+  background: #0A0EF2;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.gem:after {
+  content: "";
+  position: absolute;
+  margin: 20% auto;
+  top: -10px;
+  width: 50px;
+  height: 50px;
+  border: 10px solid;
+  border-color: rgba(0,0,0,0.2) rgba(255,255,255,0.15) rgba(0,0,0,0.25) rgba(255,255,255,0.4);
 }
 
 .slogan {
@@ -45,6 +47,7 @@
 
 header {
   border-top: 9px solid #222222;
+  font-size: 30px;
 }
 
 hr {
@@ -61,7 +64,7 @@ h2 {
 }
 
 .next-quote {
-  color:#f84342;
+  color: #0A0EF2;
   font-family: 'exo_2extra_bold_condensed', serif;
   font-size: 20px;
 }
