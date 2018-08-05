@@ -7,7 +7,7 @@
 
 
 .gem {
-  margin: 5% auto;
+  margin: 7% 7% 7% 70%;
   width: 50px;
   height: 50px;
   background: #0A0EF2;
@@ -25,6 +25,11 @@
   height: 50px;
   border: 10px solid;
   border-color: rgba(0,0,0,0.2) rgba(255,255,255,0.15) rgba(0,0,0,0.25) rgba(255,255,255,0.4);
+}
+
+.text-logo {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-size: 15px;
 }
 
 .slogan {
@@ -56,11 +61,12 @@ hr {
 
 h1 {
   font-family: 'exo_2extra_bold_condensed', serif;
-  font-size: 48px;
+  font-size: 68px;
 }
 
 h2 {
   font-family: 'exo_2extra_light_condensed', serif;
+  font-size: 25px;
 }
 
 .next-quote {
@@ -100,5 +106,15 @@ h2 span {
 }
 
 ::selection {
-  background-color: #f84342
+  background-color: #0A0EF2
 }
+
+.row {
+    max-width: 100%;
+}
+
+header.row {
+    margin: 0;
+}
+
+
